@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    padding-top: 80px; 
+}
+
+.generatedList {
+    text-align: center;
+}
+
+.img_background {
+    height: 222px;
+    width: 174px;
+    padding: 10px;
+    
+}
+
+#rootImage {
+    visibility: hidden;
+    display: none;
+}
+
+.selectRow{
+    margin-bottom: 50px;
+}
+
+#imgSelect {
+    width: auto;
+}
+
+.headerText {
+    text-align: center;
+}
+
+.refreshButton {
+    margin-left: 20px;
+}
+
+.blankBox {
+    height: 222px;
+    width: 174px;
+    padding: 10px;
+    background-color: red;
+}
+
+#tableOverlay {
+    position: absolute;
+    display: none;
+}
